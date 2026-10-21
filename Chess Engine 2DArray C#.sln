@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chess Engine 2DArray C#", "Chess Engine 2DArray C#\Chess Engine 2DArray C#.csproj", "{DF200C1B-A05C-4975-9919-3843A603FD0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessGui", "ChessGui\ChessGui.csproj", "{4A2DE8BE-688C-405F-A66C-587FA159E7D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF200C1B-A05C-4975-9919-3843A603FD0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF200C1B-A05C-4975-9919-3843A603FD0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF200C1B-A05C-4975-9919-3843A603FD0B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DF200C1B-A05C-4975-9919-3843A603FD0B}.Debug|x64.Build.0 = Debug|Any CPU
+		{DF200C1B-A05C-4975-9919-3843A603FD0B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DF200C1B-A05C-4975-9919-3843A603FD0B}.Debug|x86.Build.0 = Debug|Any CPU
+		{DF200C1B-A05C-4975-9919-3843A603FD0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF200C1B-A05C-4975-9919-3843A603FD0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF200C1B-A05C-4975-9919-3843A603FD0B}.Release|x64.ActiveCfg = Release|Any CPU
+		{DF200C1B-A05C-4975-9919-3843A603FD0B}.Release|x64.Build.0 = Release|Any CPU
+		{DF200C1B-A05C-4975-9919-3843A603FD0B}.Release|x86.ActiveCfg = Release|Any CPU
+		{DF200C1B-A05C-4975-9919-3843A603FD0B}.Release|x86.Build.0 = Release|Any CPU
+		{4A2DE8BE-688C-405F-A66C-587FA159E7D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A2DE8BE-688C-405F-A66C-587FA159E7D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A2DE8BE-688C-405F-A66C-587FA159E7D5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4A2DE8BE-688C-405F-A66C-587FA159E7D5}.Debug|x64.Build.0 = Debug|Any CPU
+		{4A2DE8BE-688C-405F-A66C-587FA159E7D5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4A2DE8BE-688C-405F-A66C-587FA159E7D5}.Debug|x86.Build.0 = Debug|Any CPU
+		{4A2DE8BE-688C-405F-A66C-587FA159E7D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A2DE8BE-688C-405F-A66C-587FA159E7D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A2DE8BE-688C-405F-A66C-587FA159E7D5}.Release|x64.ActiveCfg = Release|Any CPU
+		{4A2DE8BE-688C-405F-A66C-587FA159E7D5}.Release|x64.Build.0 = Release|Any CPU
+		{4A2DE8BE-688C-405F-A66C-587FA159E7D5}.Release|x86.ActiveCfg = Release|Any CPU
+		{4A2DE8BE-688C-405F-A66C-587FA159E7D5}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61FB7B47-DADE-4AC4-9327-D8EFD0E2E1D5}
+	EndGlobalSection
+EndGlobal

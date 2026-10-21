@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Optimize>true</Optimize>
+    <TieredPGO>true</TieredPGO>
+  </PropertyGroup>
+
+  <!-- Compile the engine sources straight in (everything except its console entry point),
+       so the GUI and the UCI engine always share the same search and evaluation. -->
+  <ItemGroup>
+    <Compile Include="..\Chess Engine 2DArray C#\*.cs" Exclude="..\Chess Engine 2DArray C#\Program.cs" LinkBase="Engine" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Svg" Version="3.4.7" />
+  </ItemGroup>
+
+  <!-- Piece images and sounds from lichess, see Assets/ATTRIBUTION.md. -->
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Pieces\*.svg;Assets\Sounds\*.wav" LogicalName="ChessGui.%(Filename)%(Extension)" />
+  </ItemGroup>
+
+</Project>
